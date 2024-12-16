@@ -28,7 +28,7 @@ public class AdminPageServlet extends HttpServlet {
         Users user = new Users();
         user.setUserName(request.getParameter("userName"));
         user.setUserPassword(request.getParameter("userPassword"));
-        user.setUserEmail(request.getParameter("userEmail"));
+        user.setUserEmail(request.getParameter("userEmail"));//qwerq
         user.setUserAddress(request.getParameter("userAddress"));
         user.setUserPhoneNumber(request.getParameter("userPhoneNumber"));
         user.setRoleId(Integer.parseInt(request.getParameter("roleId")));
